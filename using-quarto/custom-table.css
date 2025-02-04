@@ -1,0 +1,12 @@
+:root 
+{
+    color-scheme: only light !important;
+}
+
+:root.dark {
+    --dt-html-background: white !important;
+}
+
+body, html {
+    background-color: white !important;
+}

@@ -1,0 +1,21 @@
+[project]
+authors = ["Maeve Murphy Quinlan <earmmu@leeds.ac.uk>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "python-sandbox"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+shiny = ">=1.2.1,<2"
+pandas = ">=2.2.3,<3"
+numpy = ">=2.0.2,<3"
+geopandas = ">=1.0.1,<2"
+quarto = ">=1.6.40,<2"
+itables = ">=2.2.4,<3"
+plotly = ">=6.0.0,<7"
+bokeh = ">=3.4.2,<4"
+dash = ">=2.18.2,<3"
